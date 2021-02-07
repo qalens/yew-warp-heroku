@@ -8,7 +8,7 @@ use warp::path::FullPath;
 async fn main() {
     // Match any request and return hello world!
     let application = single_page_application("dist");
-    let api = warp::path!("api" / "hello").map(|| "Hello, World!");
+    let api = warp::path!("api" / "hello").map(|| "Hello, There!");
     let port = env::var("PORT")
         .unwrap_or_else(|_| "3000".to_string())
         .parse()
