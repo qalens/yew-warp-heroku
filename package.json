@@ -1,0 +1,15 @@
+{
+  "author": "Atmaram Naik <naik_atmaram@yahoo.com>",
+  "name": "yew-app",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "cd frontend && yarn build"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-wasm.rs": "^1.2.16",
+    "sass": "^1.24.2",
+    "typescript": "^3.7.4"
+  }
+}
