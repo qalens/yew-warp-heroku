@@ -3,7 +3,8 @@
   "name": "yew-app",
   "version": "0.1.0",
   "scripts": {
-    "build": "cd frontend && yarn build"
+    "build": "cd frontend && yarn build",
+    "start": "cd frontend && yarn start"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
