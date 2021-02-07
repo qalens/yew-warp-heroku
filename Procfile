@@ -1,1 +1,1 @@
-web: ./target/release/hwarp
+web: ./target/release/backend
